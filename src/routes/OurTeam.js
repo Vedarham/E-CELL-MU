@@ -7,7 +7,7 @@ const OurTeam = () => {
   return (
     <div className='teampage'>
         <video src={teambg}  autoPlay loop muted/>
-      <h1>Meet Our Team</h1>
+      <h1>Our Team</h1>
     <div className="ourteam">
       <div className='teamcard'>
       {teamdata.map((item) => (
